@@ -6,5 +6,12 @@
 </head>
 <body>
     <h1>Welcome to the home page!</h1>
+    <p> Students: </p>
+			<ul>
+				{% for i in students %}
+					<li> {{i}} </li>
+					<a href = "{{url_for('display_student', name = Ahmad)}}">Ahmad</a>
+				{% endfor %}
+			</ul>
 </body>
 </html>

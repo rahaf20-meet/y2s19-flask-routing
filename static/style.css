@@ -1,3 +1,17 @@
 body {
-    background: #fcfcfc;
+    color: white;
+    animation-name: red;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+
+}
+a{
+	color: white;
+}
+
+@keyframes red{
+
+	from{background-color: #800020; }
+	to{background-color:grey;}
+
 }
