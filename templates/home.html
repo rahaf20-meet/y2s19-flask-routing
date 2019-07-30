@@ -10,7 +10,7 @@
 			<ul>
 				{% for i in students %}
 					<li> {{i}} </li>
-					<a href = "{{url_for('display_student', name = Ahmad)}}">Ahmad</a>
+					<a href = "{{url_for('display_student', student_id = i.student_id)}}">student proile</a>
 				{% endfor %}
 			</ul>
 </body>
